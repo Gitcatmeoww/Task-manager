@@ -1,0 +1,11 @@
+
+header {
+    background-color: #dc4c3e;
+    color: #ffffff;
+    height: 50px;
+}
+
+#headerWrapper{
+    vertical-align: middle;
+    padding-top: 0.7em;
+}

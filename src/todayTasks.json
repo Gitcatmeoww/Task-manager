@@ -1,0 +1,12 @@
+[
+    {
+        "id": "Today01",
+        "description": "Sample Today Task 1",
+        "checked": false
+    },
+    {
+        "id": "Today02",
+        "description": "Sample Today Task 2",
+        "checked": false
+    }
+]

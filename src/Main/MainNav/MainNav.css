@@ -1,0 +1,94 @@
+#tasks {
+    grid-area: tasks;
+    min-width: 200px;
+    height:100%;
+    padding: 2em 2em;
+}
+
+h1 {
+    padding-left: 2.7em;
+}
+
+#inbox {
+    list-style-type: none;
+    padding-right: 3em;
+    line-height: 3.2em;
+}
+
+.itemLine {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.7em;
+    appearance: none;
+    color: grey;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#cb:checked {
+    color: #ea9518;
+    background-color: #f3ca7e;
+}
+
+.editTask {
+    border: none;
+    width: 95%;
+    height: 2em;
+    font-size: 14px;
+}
+
+.addForm {
+    margin-top: 1.5em;
+}
+
+.formControl label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.formControl input {
+    width: 90%;
+    height: 40px;
+    padding: 3px 7px;
+    font-size: 14px;
+}
+
+.addBtn {
+    display: inline-block;
+    background: #dc4c3e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 13px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: inherit;
+  }
+
+/* #cb2:checked {
+    color: #d81e06;
+    background-color: #e8989a;
+}
+
+#cb3:checked {
+    color: #0e932e;
+    background-color: #aad08f;
+}
+
+#cb4:checked {
+    color: #9c1592;
+    background-color: #a686ba;
+}
+
+#cb5:checked {
+    color: #004198;
+    background-color: #87a7d6;
+} */

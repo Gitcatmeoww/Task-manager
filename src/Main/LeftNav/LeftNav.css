@@ -1,0 +1,69 @@
+#projects {
+    grid-area: projects;
+    background-color: #fefbf2;
+    color: #000000;
+    height: 100%;
+    padding: 2em 2em;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#inboxIcon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 0.2em;
+    margin-right: 0.7em;
+}
+
+#navList {
+    list-style-type: none;
+    line-height: 2.5em;
+}
+
+.taskCount {
+    color: #7e7d79;
+    padding-left: 0.5em;
+}
+
+details summary {
+    list-style-type: none;
+    list-style-image: url("../../../public/icons/arrow.png");
+    cursor: pointer;
+}
+
+.treeParent_item[open] > .treeParent {
+    list-style-type: none;
+    list-style-image: url("../../../public/icons/arrowDown.png");
+}
+
+.treeChild1_item[open] > .treeChild1 {
+    list-style-type: none;
+    list-style-image: url("../../../public/icons/arrowDown.png");
+}
+
+.treeChild2_item[open] > .treeChild2 {
+    list-style-type: none;
+    list-style-image: url("../../../public/icons/arrowDown.png");
+}
+
+.childList {
+    padding-left: 4.2em;
+}
+
+.sublist{
+    margin-left: -2em;
+}
+
+#inboxIcon_parent {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    width: 17px;
+    height: 17px;
+    vertical-align: text-top;
+}
+
+.projectTitle {
+    padding-left: 1.3em;
+}

@@ -1,0 +1,22 @@
+
+#leftHeader {
+    padding-left: 4em;
+}
+
+#quickFind {
+    border: none;
+    border-radius: 5px;
+    background-color:#e0685c;
+    background-image: url("../../../public/icons/search.png");
+    background-repeat: no-repeat;
+    background-position: 8px 5px;
+    width: 250px;
+    height: 30px;
+    padding-left: 38px;
+}
+
+input[type="search"]::placeholder {
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: small;
+}

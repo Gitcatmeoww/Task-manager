@@ -1,0 +1,11 @@
+#main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: "projects tasks";
+    height: 100vh;
+}
+
+#addItem {
+    color: grey;
+}

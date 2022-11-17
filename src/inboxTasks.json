@@ -1,0 +1,27 @@
+[
+    {
+        "id": "Inbox01",
+        "description": "Call Mom",
+        "checked": false
+    },
+    {
+        "id": "Inbox02",
+        "description": "Buy the new issue of Scientific American",
+        "checked": false
+    },
+    {
+        "id": "Inbox03",
+        "description": "Return the textbook to Josie",
+        "checked": false
+    },
+    {
+        "id": "Inbox04",
+        "description": "Buy the new album by Rake",
+        "checked": false
+    },
+    {
+        "id": "Inbox05",
+        "description": "Buy a gift card for Dad",
+        "checked": false
+    }
+]
